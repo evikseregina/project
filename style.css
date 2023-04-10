@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header {
+
+    background: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    border: 1px solid #000000;
+
+}
+
+.header__menu {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    padding-left: calc(50% - 1250px / 2);
+    padding-right: calc(50% - 1250px / 2);
+}
+
+.menu__link {
+    padding: 39px 23px 26px;
+    display: flex;
+    transition: all 0.4s;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #E0E0E0;
+
+}
+
+.menu__link:hover {
+    background-color: #FF3F40;
+    color: #Fff;
+}
+
+.menu__link_active {
+    background: #FF3F40;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #E0E0E0;
+
+}
+
+.top {
+    background: #F6F2F2;
+    padding-top: 29px;
+    padding-bottom: 110px;
+
+}
+
+
+
+
+.top__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 101px;
+}
+
+.top__section {
+    width: 617px;
+}
+
+.top__title {
+
+    font-style: italic;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #000000;
+
+}
+
+.text {
+    margin-top: 37px;
+    margin-bottom: 63px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.top__text {
+    width: 544px;
+}
+
+.button {
+    background-color: #FF2D2D;
+    padding: 15px 63px;
+    margin-bottom: 123px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+}
+
+.top__video {
+    width: 553px;
+    height: 359px;
+
+}
