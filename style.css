@@ -20,7 +20,6 @@ img {
     background: #000000;
     mix-blend-mode: normal;
     border: 1px solid #000000;
-
 }
 
 .header__menu {
@@ -71,7 +70,6 @@ img {
     background: #F6F2F2;
     padding-top: 29px;
     padding-bottom: 110px;
-
 }
 
 
@@ -146,8 +144,6 @@ img {
     justify-content: space-between;
     margin-top: 107px;
     margin-bottom: 104px;
-
-
 }
 
 .content__info {
@@ -393,7 +389,6 @@ img {
     font-size: 42px;
     line-height: 24px;
     letter-spacing: 1px;
-
     color: #FFFFFF;
 }
 
@@ -410,10 +405,8 @@ img {
 
 .form {
     background-color: #313030;
-
     height: 516px;
     margin-bottom: 104px;
-
 }
 
 .form__info {
@@ -438,14 +431,4 @@ img {
     padding: 28px 60px;
     margin-left: 19px;
     border-radius: 5px;
-
-}
-
-.form__input {
-    width: 524px;
-    height: 82px;
-    padding: 0 38px;
-    border-radius: 5px;
-    font-weight: 400;
-    font-size: 16px;
 }
