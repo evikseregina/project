@@ -19,7 +19,6 @@ img {
 
     background: #000000;
     mix-blend-mode: normal;
-    opacity: 0.8;
     border: 1px solid #000000;
 
 }
@@ -128,7 +127,325 @@ img {
 }
 
 .top__video {
-    width: 553px;
+    width: 554px;
     height: 359px;
+    box-shadow: 0px 0px 45px -10px rgba(0, 0, 0, 0.35);
+}
 
+.content__article {
+    width: 539px;
+}
+
+.content__info {
+    width: 610px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 107px;
+    margin-bottom: 104px;
+
+
+}
+
+.content__info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 98px;
+    gap: 17px;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 55px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.content__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+    margin-top: 50px;
+    margin-bottom: 64px;
+}
+
+.content__button {
+    padding: 15px 60px;
+    background: rgba(0, 0, 0, 0.0001);
+    border: 2px solid #FF0000;
+    color: #FF0000;
+}
+
+.content__subtitle {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    text-align: left;
+
+}
+
+.content__img {
+    margin-bottom: 35px;
+}
+
+.block_margin {
+    margin-top: 51px;
+}
+
+.product {
+    margin-bottom: 132px;
+}
+
+.product__info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.product__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 0px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 28px;
+
+}
+
+.product__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 33px;
+    text-align: center;
+}
+
+.product__menu {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 50px;
+    margin: 94px 83px 50px 249px;
+}
+
+.product__link {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+
+}
+
+.product__link_active {
+    color: #FF2D2D;
+}
+
+.product__block {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 17px;
+
+}
+
+.product__photo {
+    width: 301px;
+    height: 293px;
+    border: 0.01px solid black;
+    background-color: #5281FF;
+}
+
+.team {
+    margin-bottom: 115px;
+}
+
+.team__section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.team__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 0px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+
+}
+
+.team__paragraph {
+    width: 459px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 34px;
+    margin-bottom: 37px;
+}
+
+.team__stroke {
+    height: 5px;
+    width: 128px;
+    background-color: #FF2D2D;
+    margin-bottom: 67px;
+}
+
+.team__div {
+    width: 310px;
+    height: 458px;
+    background-color: #FF3F40;
+}
+
+.team__menu {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 46px;
+    margin-bottom: 59px;
+}
+
+.team__info {
+    width: 635px;
+}
+
+.team__img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.team__block {
+    width: 190px;
+    height: 216px;
+    background-color: #FF3F40;
+    position: relative;
+}
+
+.team__content {
+    margin-top: 42px;
+}
+
+.team__subtitle {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 0px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    margin-bottom: 29px;
+
+}
+
+.team__link {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.9px;
+    color: #000000;
+    transition: color 0.4s;
+}
+
+.team__link:hover {
+    color: #FF2D2D;
+}
+
+.team__name::after {
+    content: 'sokina jue';
+    padding: 10px 50px;
+    background-color: #000000;
+    opacity: 0.5;
+    position: absolute;
+    top: 175px;
+    left: 0;
+    right: 0;
+    mix-blend-mode: normal;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.form__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 24px;
+    letter-spacing: 1px;
+
+    color: #FFFFFF;
+}
+
+.form__paragraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 17px;
+    margin-bottom: 57px;
+}
+
+
+.form {
+    background-color: #313030;
+
+    height: 516px;
+    margin-bottom: 104px;
+
+}
+
+.form__info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 166px;
+    padding-bottom: 104px;
+}
+
+.form__button {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #FF2D2D;
+    padding: 28px 60px;
+    margin-left: 19px;
+    border-radius: 5px;
+
+}
+
+.form__input {
+    width: 524px;
+    height: 82px;
+    padding: 0 38px;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 16px;
 }
