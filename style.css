@@ -249,6 +249,7 @@ img {
     letter-spacing: 0.2px;
     text-transform: uppercase;
     transition: color 0.4s;
+    color: #000000;
 }
 
 .product__link:hover {
