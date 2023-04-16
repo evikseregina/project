@@ -16,10 +16,7 @@ img {
 }
 
 .header {
-
     background: #000000;
-    mix-blend-mode: normal;
-    border: 1px solid #000000;
 }
 
 .header__menu {
@@ -46,7 +43,6 @@ img {
     letter-spacing: 0.5px;
     text-transform: uppercase;
     color: #E0E0E0;
-
 }
 
 .menu__link:hover {
@@ -63,7 +59,6 @@ img {
     letter-spacing: 0.5px;
     text-transform: uppercase;
     color: #E0E0E0;
-
 }
 
 .top {
@@ -71,9 +66,6 @@ img {
     padding-top: 29px;
     padding-bottom: 110px;
 }
-
-
-
 
 .top__content {
     display: flex;
@@ -87,7 +79,6 @@ img {
 }
 
 .top__title {
-
     font-style: italic;
     font-weight: 800;
     font-size: 60px;
@@ -95,7 +86,6 @@ img {
     letter-spacing: 1.5px;
     text-transform: uppercase;
     color: #000000;
-
 }
 
 .text {
@@ -122,6 +112,13 @@ img {
     line-height: 34px;
     letter-spacing: 0.3px;
     color: #FFFFFF;
+    transition: all 0.4s;
+}
+
+.button:hover {
+    color: #000000;
+    background-color: #FF0000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .top__video {
@@ -178,6 +175,13 @@ img {
     background: rgba(0, 0, 0, 0.0001);
     border: 2px solid #FF0000;
     color: #FF0000;
+    transition: all 0.4s;
+}
+
+.content__button:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 2px solid #000000;
 }
 
 .content__subtitle {
@@ -187,7 +191,6 @@ img {
     font-weight: 600;
     letter-spacing: 0.3px;
     text-align: left;
-
 }
 
 .content__img {
@@ -207,7 +210,6 @@ img {
     flex-wrap: wrap;
     flex-direction: column;
     text-align: center;
-
 }
 
 .product__title {
@@ -219,7 +221,6 @@ img {
     text-transform: uppercase;
     color: #000000;
     margin-bottom: 28px;
-
 }
 
 .product__text {
@@ -247,7 +248,11 @@ img {
     line-height: 24px;
     letter-spacing: 0.2px;
     text-transform: uppercase;
+    transition: color 0.4s;
+}
 
+.product__link:hover {
+    color: #FF2D2D;
 }
 
 .product__link_active {
@@ -285,7 +290,6 @@ img {
     line-height: 0px;
     letter-spacing: 0.4px;
     text-transform: uppercase;
-
 }
 
 .team__paragraph {
@@ -349,7 +353,6 @@ img {
     letter-spacing: 0.3px;
     text-transform: uppercase;
     margin-bottom: 29px;
-
 }
 
 .team__link {
@@ -431,4 +434,224 @@ img {
     padding: 28px 60px;
     margin-left: 19px;
     border-radius: 5px;
+    transition: all 0.4s;
+}
+
+.form__button:hover {
+    color: #000000;
+    background-color: #F6F2F2;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.form__input {
+    width: 524px;
+    height: 82px;
+    padding: 0 38px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #2C2C2C;
+    border-radius: 5px;
+}
+
+.contacts {
+    width: 1418px;
+    height: 771px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: calc(50% - 1418px / 2);
+    padding-right: calc(50% - 1418px / 2);
+    margin-bottom: 107px;
+}
+
+.contacts__block {
+    width: 753px;
+}
+
+.contacts__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 0px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+}
+
+.contacts__paragraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 46px;
+    margin-bottom: 58px;
+}
+
+.contacts__stroke {
+    height: 5px;
+    width: 134px;
+    background-color: #FF2D2D;
+    margin-bottom: 74px;
+}
+
+.contacts__name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+    border-radius: 5px;
+}
+
+.contacts__mail {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+    border-radius: 5px;
+}
+
+.contacts__message {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+    width: 634px;
+    height: 252px;
+    background-color: #E0E0E0;
+    padding: 0 53px;
+    border-radius: 5px;
+    margin-bottom: 43px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.contacts__info {
+    width: 580px;
+    height: 485px;
+    background-color: #2d2d2d;
+    color: #Fff;
+    margin-top: 270px;
+}
+
+.contacts__text {
+    padding-top: 141px;
+    padding-left: 81px;
+}
+
+.contacts__name {
+    width: 239px;
+    height: 69px;
+    background-color: #E0E0E0;
+    padding: 0 50px;
+
+}
+
+.contacts__mail {
+    width: 242px;
+    height: 71px;
+    background-color: #E0E0E0;
+    padding: 0 50px;
+}
+
+.contacts__btn {
+    width: 731px;
+    height: 75px;
+    background-color: #FF3B3B;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-radius: 5px;
+    transition: all 0.4s;
+}
+
+.contacts__btn:hover {
+    padding-top: 4px;
+    background-color: #FF0000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.contacts__div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 52px;
+    margin-bottom: 44px;
+}
+
+.contacts__subtitle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.contacts__adress {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 27px;
+}
+
+.contacts__email {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.contacts__tel {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.footer {
+    background-color: #313030;
+    width: 100vw;
+    height: 113px;
+}
+
+.footer__text {
+    padding: 48px 170px 32px;
+    color: #B8B8B8;
+}
+
+.footer__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1247px;
+}
+
+.footer__icons {
+    display: flex;
+    gap: 18px;
+    cursor: pointer;
+}
+
+.footer__icon {
+    transition: all 0.4s;
+}
+
+.footer__icon:hover {
+    width: 40px;
+    height: 40px;
 }
